@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import CardItem from "../_components/card-item";
+import CardItem from "../../_components/card-item";
 import { mockArticles } from "../_data/mock-articles";
 import MenuBanner1 from "../_components/menu-banner-1";
 import MenuBanner2 from "../_components/menu-banner-2";

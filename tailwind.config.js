@@ -5,6 +5,7 @@ module.exports = {
       fontFamily: {
         raleway: ["var(--font-raleway)", "sans-serif"],
         lexend: ["var(--font-lexend-deca)", "sans-serif"],
+        racing: ["var(--font-racing-sans-one)", "sans-serif"],
       },
       fontSize: {
         "6xl": "64px",

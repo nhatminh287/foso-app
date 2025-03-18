@@ -31,7 +31,7 @@ const CardItem: FC<CardItemProps> = ({
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          height: "475px", // You can adjust this value as needed
+          height: "475px", 
         }}
       />
       <div className="flex flex-col gap-4 pt-6">

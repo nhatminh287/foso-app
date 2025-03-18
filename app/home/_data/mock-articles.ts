@@ -1,4 +1,4 @@
-import { Article } from '../_components/card-item';
+import { Article } from '../../_components/card-item';
 
 // Generate random reading minutes between 1 and 20
 const getRandomReadingMinutes = () => Math.floor(Math.random() * 20) + 1;
