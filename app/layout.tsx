@@ -1,13 +1,19 @@
 import type { Metadata } from "next";
-import { Raleway } from "next/font/google";
+import { Raleway, Lexend_Deca } from "next/font/google";
 import "./globals.css";
-import Navbar from "./components/navbar";
+import Navbar from "./_components/navbar";
 
 
 const raleway = Raleway({
   subsets: ["vietnamese"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   variable: "--font-raleway",
+});
+
+const lexendDeca = Lexend_Deca({
+  subsets: ["vietnamese"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  variable: "--font-lexend-deca",
 });
 
 export const metadata: Metadata = {
@@ -22,9 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={raleway.className}
-      >
+      <body className={`${raleway.variable} ${lexendDeca.variable}`}>
         <Navbar />
         <main className="pt-16">{children}</main>
       </body>
