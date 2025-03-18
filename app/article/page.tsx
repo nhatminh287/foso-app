@@ -22,7 +22,7 @@ export default function ArticlePage() {
       <div className="w-full px-[120px] xl:px-[240px] flex justify-center mx-auto mt-12">
         <div className="w-full flex gap-8">
           {/* Left Column - Article Content */}
-          <div className="w-[72%] flex flex-col gap-8">
+          <div className="w-[64%] flex flex-col gap-8">
             <p className="font-raleway font-normal text-[14px] leading-[150%] tracking-[0] align-middle text-[#050505]">
               Trang chủ &gt; Tài nguyên &gt; Blog &gt;{" "}
               <span className="font-bold capitalize">
