@@ -5,7 +5,6 @@ import QuotationMark from "./quotation-mark";
 
 const ArticleContent = () => {
   return (
-
     <div className="article-content prose prose-lg max-w-none flex flex-col gap-6 font-raleway">
       {/* Title */}
       <div className="flex flex-col gap-4">
@@ -72,7 +71,7 @@ const ArticleContent = () => {
           color="#15AA7A"
           size={48}
         />
-        <p className="w-[778px] mx-auto font-raleway font-light italic text-[20px] leading-[24px] text-center text-[#33404A]">
+        <p className="3xl:w-[778px] w-full mx-auto font-raleway font-light italic text-[20px] leading-[24px] text-center text-[#33404A]">
           Chắc hẳn bạn đã từng nghe qua khái niệm về quy trình 5S là gì? Xây
           dựng 5S cần yếu tố gì? Bài viết dưới đây của FOSO sẽ trả lời cho bạn
           thông tin chi tiết về mô hình này cũng như yếu tố tạo nên thành công
@@ -463,14 +462,14 @@ const ArticleContent = () => {
           không? Quy trình 5S với Kaizen là hai khái niệm khác nhau, nhưng giữa
           chúng có mối quan hệ chặt chẽ với nhau.
         </p>
-        <div className="w-[900px] h-[76px] gap-[10px] p-[12px_16px_8px_36px] border-l-[3px] border-[#15AA7A]">
+        <div className="3xl:w-[900px] w-full h-[76px] gap-[10px] p-[12px_16px_8px_36px] border-l-[3px] border-[#15AA7A]">
           <p className="text-[20px] font-raleway font-light italic leading-[28px] tracking-[0%] text-[#33404A]">
             Về Kaizen, thì đây được xem là một triết lý cải tiến liên tục trong
             doanh nghiệp. Phương pháp này nhằm tạo ra sự thay đổi tích cực, mang
             tính liên tục và bền vững. 
           </p>
         </div>
-        <div className="w-[900px] h-[76px] gap-[10px] p-[12px_16px_8px_36px] border-l-[3px] border-[#15AA7A]">
+        <div className="3xl:w-[900px] w-full h-[76px] gap-[10px] p-[12px_16px_8px_36px] border-l-[3px] border-[#15AA7A]">
           <p className="text-[20px] font-raleway font-light italic leading-[28px] tracking-[0%] text-[#33404A]">
             Còn đối với quy tắc 5S, đây là một phương pháp quản lý và cải tiến
             trong sản xuất. 5S tập trung vào việc sắp xếp, sạch sẽ, sắp đặt,
@@ -577,20 +576,26 @@ const ArticleContent = () => {
           </div>
           <div className="flex gap-8">
             <div className="flex flex-col w-[90px] h-[109px] gap-[4px] rounded-[4px] border-[#10805B] p-[4px]">
-              <Image src="/images/thumb.png" width={48} height={48} alt="" />
-              <span className="font-raleway text-[16px] font-bold leading-[150%] text-center text-[#10805B]">
+              <Image
+                src="/images/thumb.png"
+                width={48}
+                height={48}
+                alt=""
+                className="mx-auto"
+              />
+              <span className="mx-auto font-raleway text-[16px] font-bold leading-[150%] text-center text-[#10805B]">
                 1
               </span>
-              <span className="font-raleway text-[14px] font-medium leading-[150%] text-center text-[#10805B]">
+              <span className="mx-auto font-raleway text-[14px] font-medium leading-[150%] text-center text-[#10805B]">
                 Hữu ích
               </span>
             </div>
             <div className="flex flex-col w-[90px] h-[109px] gap-[4px] rounded-[4px] p-[4px]">
-              <Image src="/images/heart.png" width={48} height={48} alt="" />
-              <span className="font-raleway text-[16px] font-bold leading-[150%] text-center text-[#33404A]">
+              <Image src="/images/heart.png" width={48} height={48} alt="" className="mx-auto" />
+              <span className="mx-auto font-raleway text-[16px] font-bold leading-[150%] text-center text-[#33404A]">
                 2
               </span>
-              <span className="font-raleway text-[14px] font-medium leading-[150%] text-center text-[#33404A]">
+              <span className="mx-auto font-raleway text-[14px] font-medium leading-[150%] text-center text-[#33404A]">
                 Yêu thích
               </span>
             </div>
@@ -601,37 +606,37 @@ const ArticleContent = () => {
                 height={48}
                 alt=""
               />
-              <span className="font-raleway text-[16px] font-bold leading-[150%] text-center text-[#33404A]">
+              <span className="mx-auto font-raleway text-[16px] font-bold leading-[150%] text-center text-[#33404A]">
                 0
               </span>
-              <span className="font-raleway text-[14px] font-medium leading-[150%] text-center text-[#33404A]">
+              <span className="mx-auto font-raleway text-[14px] font-medium leading-[150%] text-center text-[#33404A]">
                 Thú vị
               </span>
             </div>
             <div className="flex flex-col w-[90px] h-[109px] gap-[4px] rounded-[4px] p-[4px]">
-              <Image src="/images/husted.png" width={48} height={48} alt="" />
-              <span className="font-raleway text-[16px] font-bold leading-[150%] text-center text-[#33404A]">
+              <Image src="/images/husted.png" width={48} height={48} alt="" className="mx-auto" />
+              <span className="mx-auto font-raleway text-[16px] font-bold leading-[150%] text-center text-[#33404A]">
                 1
               </span>
-              <span className="font-raleway text-[14px] font-medium leading-[150%] text-center text-[#33404A]">
+              <span className="mx-auto font-raleway text-[14px] font-medium leading-[150%] text-center text-[#33404A]">
                 Bất ngờ
               </span>
             </div>
             <div className="flex flex-col w-[90px] h-[109px] gap-[4px] rounded-[4px] p-[4px]">
-              <Image src="/images/boring.png" width={48} height={48} alt="" />
-              <span className="font-raleway text-[16px] font-bold leading-[150%] text-center text-[#33404A]">
+              <Image src="/images/boring.png" width={48} height={48} alt="" className="mx-auto" />
+              <span className="mx-auto font-raleway text-[16px] font-bold leading-[150%] text-center text-[#33404A]">
                 0
               </span>
-              <span className="font-raleway text-[14px] font-medium leading-[150%] text-center text-[#33404A]">
+              <span className="mx-auto font-raleway text-[14px] font-medium leading-[150%] text-center text-[#33404A]">
                 Nhàm chán
               </span>
             </div>
             <div className="flex flex-col w-[90px] h-[109px] gap-[4px] rounded-[4px] p-[4px]">
-              <Image src="/images/angry.png" width={48} height={48} alt="" />
-              <span className="font-raleway text-[16px] font-bold leading-[150%] text-center text-[#33404A]">
+              <Image src="/images/angry.png" width={48} height={48} alt="" className="mx-auto" />
+              <span className="mx-auto font-raleway text-[16px] font-bold leading-[150%] text-center text-[#33404A]">
                 0
               </span>
-              <span className="font-raleway text-[14px] font-medium leading-[150%] text-center text-[#33404A]">
+              <span className="mx-auto font-raleway text-[14px] font-medium leading-[150%] text-center text-[#33404A]">
                 Tức giận
               </span>
             </div>
