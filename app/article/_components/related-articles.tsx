@@ -1,12 +1,9 @@
 "use client";
 
 import CardItem from '../../_components/card-item';
-import { useRouter } from 'next/navigation';
 
 const RelatedArticles = () => {
-  const router = useRouter();
   
-  // Mock related articles data - formatted to match the structure in mock-articles.ts
   const relatedArticles = [
     {
       title: "10 Nguyên tắc UX/UI hiệu quả cho website thương mại điện tử",

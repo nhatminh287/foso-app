@@ -5,7 +5,8 @@ import QuotationMark from "./quotation-mark";
 
 const ArticleContent = () => {
   return (
-    <div className="article-content prose prose-lg max-w-none flex flex-col gap-6">
+
+    <div className="article-content prose prose-lg max-w-none flex flex-col gap-6 font-raleway">
       {/* Title */}
       <div className="flex flex-col gap-4">
         <div className="w-[114px] h-[26px] gap-[10px] px-2 py-[4px] rounded-lg bg-[#E2F0FE]">
@@ -71,7 +72,7 @@ const ArticleContent = () => {
           color="#15AA7A"
           size={48}
         />
-        <p className="w-[778px] mx-auto font-raleway font-medium italic text-[20px] leading-[24px] text-center text-[#33404A]">
+        <p className="w-[778px] mx-auto font-raleway font-light italic text-[20px] leading-[24px] text-center text-[#33404A]">
           Chắc hẳn bạn đã từng nghe qua khái niệm về quy trình 5S là gì? Xây
           dựng 5S cần yếu tố gì? Bài viết dưới đây của FOSO sẽ trả lời cho bạn
           thông tin chi tiết về mô hình này cũng như yếu tố tạo nên thành công

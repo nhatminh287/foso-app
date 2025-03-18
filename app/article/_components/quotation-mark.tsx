@@ -5,7 +5,7 @@ interface QuotationMarkProps {
 }
 
 export default function QuotationMark({
-  color = "#27AE60", // Default green color
+  color = "#27AE60", 
   size = 40,
   className = "",
 }: QuotationMarkProps) {

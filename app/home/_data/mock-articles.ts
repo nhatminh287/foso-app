@@ -3,7 +3,6 @@ import { Article } from '../../_components/card-item';
 // Generate random reading minutes between 1 and 20
 const getRandomReadingMinutes = () => Math.floor(Math.random() * 20) + 1;
 
-// Generate a random date in the last 60 days
 const getRandomDate = () => {
   const today = new Date();
   const randomDaysAgo = Math.floor(Math.random() * 60);
@@ -39,7 +38,7 @@ const articleTitles = [
 
 // Generate 50 mock articles
 export const mockArticles: Article[] = Array.from({ length: 50 }, (_, index) => {
-  // Use modulo to cycle through the titles (to avoid creating 50 unique titles)
+  
   const titleIndex = index % articleTitles.length;
   
   return {
